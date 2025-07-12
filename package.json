@@ -1,0 +1,27 @@
+{
+  "name": "aiman-dev-portfolio",
+  "version": "1.0.0",
+  "description": "Portfolio website with email functionality - Vercel deployment",
+  "main": "index.html",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "vercel-build": "echo 'Building for Vercel...'",
+    "build": "echo 'Build complete'"
+  },
+  "keywords": [
+    "portfolio",
+    "nodejs",
+    "email",
+    "vercel"
+  ],
+  "author": "AIMAN DEV",
+  "license": "MIT",
+  "dependencies": {
+    "nodemailer": "^6.9.7",
+    "resend": "^4.6.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "functions": {
+    "api/send-email.js": {
+      "maxDuration": 30
+    }
+  },
+  "buildCommand": "",
+  "outputDirectory": ".",
+  "installCommand": ""
+}
